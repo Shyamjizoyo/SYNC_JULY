@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Apple</title>
+	<link rel="icon" type="image/x-icon" href="assets/img/apple.jpeg">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<a href="index.html"><img src="assets/img/apple.jpeg" class="logo"></a>
+			<nav>
+				<ul id="menuList">
+					<li><a href="airpod.html">Airpods</a></li>
+					<li><a href="ipod.html">ipad</a></li>
+					<li><a href="iphone.html">iphone</a></li>
+					<li><a href="index.html">Other</a></li>
+					<!-- <li><a href="pencil.html">Other</a></li> -->
+				</ul>
+			</nav>
+			<img src="assets/img/menu.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+	
+
+	<div class="row">
+		<div class="col-1">
+			<h2>Apple Vision<br>Pro</h2>
+			<h3>Mixed Reality Headset</h3>
+			<p>Designed by Apple</p>
+			<h4>$3,499</h4>
+			<button onclick="fun()" type="button">Buy Now<img src="assets/img/arrow.png"></button>
+		</div>
+
+		<div class="col-2">
+			<img src="assets/img/VISION.png" class="controller">
+			<div class="color-box"></div>
+			<div class="add-btn">
+				<img src="assets/img/add.png">
+				<p><small>Add to cart</small></p>
+			</div>
+		</div>
+	</div>
+
+		<div class="social-links">
+			<a href="https://www.facebook.com/shyamji.gupta.9400984/"><img  src="assets/img/fb.png"></a>
+			<a href="https://twitter.com/shyamjizoyo"><img src="assets/img/tw.png"></a>
+			<a href="https://www.instagram.com/shyamjizoyo/"><img src="assets/img/ig.png"></a>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+
+		let menuList = document.getElementById("menuList");
+
+		menuList.style.maxHeight = "0px";
+
+		function togglemenu(){
+			if (menuList.style.maxHeight == "0px") {
+				menuList.style.maxHeight = "130px";
+			}else {
+				menuList.style.maxHeight = "0px";
+			}
+		}
+
+function fun() {
+  alert("Tera Ghar Isme Chala Jainga ");
+}
+
+
+	</script>	
+</body>
+</html>
