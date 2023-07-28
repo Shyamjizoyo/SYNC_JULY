@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>JavaScript Quiz</title>
+  </head>
+  <body>
+   
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-7 mainbox shadow-lg bg-body rounded">
+          <h1 class="text-center">JavaScript Quiz</h1>
+
+          <div id="quizdiv">
+
+            <h4 id="question" class="my-3">Question</h4>
+
+            <li>
+              <input type="radio" class="options" id="optionA" name="options">
+              <label for="optionA" id="optionAValue">Option A</label>
+            </li>
+
+            <li>
+              <input type="radio" class="options" id="optionB" name="options">
+              <label for="optionB" id="optionBValue">Option B</label>
+            </li>
+
+            <li>
+              <input type="radio" class="options" id="optionC" name="options">
+              <label for="optionC" id="optionCValue">Option C</label>
+            </li>
+
+            <li>
+              <input type="radio" class="options" id="optionD" name="options">
+              <label for="optionD" id="optionDValue">Option D</label>
+            </li>
+
+            <button id="submitbtn" class="btn btn-primary">NEXT</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JavaScript -->
+    <script src="index.js"></script>
+
+    <!-- jqeury cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+  </body>
+</html>
